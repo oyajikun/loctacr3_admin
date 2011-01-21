@@ -5,7 +5,8 @@ gem 'rails', '3.0.3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
+# gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'mysql'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -32,3 +33,8 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Bundle gems needed for rspec
 gem "rspec-rails"
+
+# Bundle gem needed for Devise
+gem "devise", "1.1.3"
+
+gem "hpricot"
