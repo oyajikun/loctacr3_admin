@@ -38,3 +38,9 @@ gem "rspec-rails"
 gem "devise", "1.1.3"
 
 gem "hpricot"
+
+group :development, :test do
+  gem 'web-app-theme', '>= 0.6.2'
+end
+
+gem "will_paginate", "~> 3.0.pre2"
