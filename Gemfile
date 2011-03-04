@@ -32,7 +32,10 @@ gem 'mysql'
 # end
 
 # Bundle gems needed for rspec
-gem "rspec-rails"
+group :test do
+  gem "rspec"
+  gem "rspec-rails"
+end
 
 # Bundle gem needed for Devise
 gem "devise", "1.1.3"
